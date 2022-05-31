@@ -1,6 +1,9 @@
+import "dotenv";
 import { Application } from "oak";
 import { sleepRandomAmountOfSeconds } from "sleep";
 import { faker } from "faker";
+
+// const API_KEY = Deno.env.get("API_KEY");
 
 const app = new Application();
 const port = 8000;
